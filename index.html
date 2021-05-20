@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>在线简历</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2559159_5a82hgqxdwy.css">
+    <title>我的简历</title>
 </head>
 <body>
-    <h1>在线简历</h1>
+    <header>
+        <img class="avatar" src="./img/logo.jpg" alt="头像">
+        <h1>xxx</h1>
+        <p>应聘前端工程师</p>
+    </header>
+
+    <main> 
+        <div class="column-1">
+        <section class="basic-info">
+            <span class="iconfont icon-user"></span>
+            <h2>基本信息</h2>
+            <ul class="detail">
+                <li><span class="iconfont icon-phone"></span>136004679</li>
+                <li><span class="iconfont icon-wechat"></span>break</li>
+                <li><span class="iconfont icon-email"></span>fqqefv@126.com</li>
+                <li><span class="iconfont icon-education"></span>本科</li>
+            </ul>
+        </section>
+        
+        <section class="skills">
+            <span class="iconfont icon-skills"></span>
+            <h2>掌握技能</h2>
+            <ul class="detail">
+            <li>掌握HTML5/CSS3，熟悉传统布局、Flex布局、Grid布局、移动端适配等</li>
+            <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用，理解其重要概念1</li>
+            <li>熟悉React / Redux技术栈等使用，能够使用React进行基本开发</li>
+            <li>熟悉前后端交互技术JSONP、AJAX，了解fetch</li>
+            <li>熟悉Node.js开发，能搭建基础后台开发</li>
+            </ul>
+        </section>
+        <section class="map">
+            <span class="iconfont icon-map"></span>
+            <h2>技能图谱</h2>
+            <dl class="detail">
+                <dt>JavaStrip</dt>
+                <dd></dd>
+                <dt>CSS</dt>
+                <dd></dd>
+                <dt>Vue</dt>
+                <dd></dd>
+                <dt>React</dt>
+                <dd></dd>
+            </dl>
+        </div>
+        <div class="column-2">
+            <section class="education layout-1">
+                <span class="iconfont icon-education"></span>
+                <h2>教育经历</h2>
+                <ul class="detail">
+                <li>
+                    <span class="timeline">09/2017~07/2021</span>
+                    <h3>xxxx学院</h3>
+                    <span class="profession">计算机科学与技术</span>
+                    <p>什么都没有获得。</p>
+                </li>
+                </ul>
+            </section>
+            <section class="exprience layout-1">
+                <span class="iconfont icon-experience"></span>
+                <h2>项目经历</h2>
+                <ul class="detail">
+                <li>
+                    <span class="timeline">09/2017~07/2021</span>
+                    <h3>Web端项目</h3>
+                    <p>项目介绍： 该项目的目的是搭建线上学习平台，把线下课堂的完整学习流程搬到线上，平台包括课程展示、购买、直播、录播、作业、权限管理、停课复课、试听等几十个大功能。该项目采用前后分离的技术方案， 我主要负责前端部分的开发。项目前端部分使用Vue技术栈，移动端平台使用自己实现的vue ui组件库。</p>
+                </li>
+                
+                </ul>
+            </section>
+        </div>
+        
+    </main> 
 </body>
 </html>
